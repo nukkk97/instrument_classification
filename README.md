@@ -39,6 +39,7 @@ class AudioClassifier(nn.Module):
 ```
 
 ## Training
+```python
     # Params
     sample_rate=22050
     n_mels=128
@@ -49,6 +50,7 @@ class AudioClassifier(nn.Module):
     learning_rate=0.001
     batch_size=512
     model_path="./models/best_model.pth"
+```
 	
 The parameters are adjustable in main.py.
 ## Testing Accuracy
