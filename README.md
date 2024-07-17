@@ -5,7 +5,7 @@ This is a simple self-practice of utilizing torchaudio to perform instrument sou
 The related dataset is here: <br>
 https://www.kaggle.com/datasets/soumendraprasad/musical-instruments-sound-dataset <br>
 <br>
-This dataset consists of four classes: violin, guitar, piano, and drums. The relevant labels of filenames are stored in Metadata_Train.csv and Metadata_Test.csv. However, some of the data from the author is totally mislabeled, so I tried my best to fix them. The fixed files are attached within this repository.
+This dataset consists of four classes: violin, guitar, piano, and drums. The relevant labels of filenames are stored in Metadata_Train.csv and Metadata_Test.csv. However, some of the data from the author are severely mislabeled, so I tried my best to fix them. The fixed files are attached within this repository.
 
 ## Requirements
 Please refer to requirements.txt! Also, You should use venv as a virtual environment.
