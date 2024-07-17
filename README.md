@@ -40,16 +40,16 @@ class AudioClassifier(nn.Module):
 
 ## Training
 ```python
-    # Params
-    sample_rate=22050
-    n_mels=128
-    n_fft=1024
-    hop_length=512
-    fixed_length=512
-    epochs=40
-    learning_rate=0.001
-    batch_size=512
-    model_path="./models/best_model.pth"
+# Params
+sample_rate=22050
+n_mels=128
+n_fft=1024
+hop_length=512
+fixed_length=512
+epochs=40
+learning_rate=0.001
+batch_size=512
+model_path="./models/best_model.pth"
 ```
 	
 The parameters are adjustable in main.py.
