@@ -1,7 +1,7 @@
 # Instrument Classification
 This is a simple self-practice of utilizing torchaudio to perform instrument sound classification task. The core concepts are Mel spectrogram and convolutional neural network.
 
-## Ｄataset
+## Dataset
 The related dataset is here: 
 https://www.kaggle.com/datasets/soumendraprasad/musical-instruments-sound-dataset
 This dataset consists of four classes: violin, guitar, piano, and drums. The relevant labels of filenames are stored in Metadata_Train.csv and Metadata_Test.csv. However, some of the data from the author is totally mislabeled, so I tried my best to fix them. The fixed files are attached within this repository.
