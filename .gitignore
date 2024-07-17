@@ -1,0 +1,8 @@
+__pycache__
+models/
+req/
+Self_Test/
+Test_submission/
+Train_submission/
+*.pth
+*.png
