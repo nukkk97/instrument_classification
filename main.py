@@ -164,6 +164,9 @@ test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 # Model
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = AudioClassifier().to(device)
+directory = os.path.dirname(model_path)
+if not os.path.exists(directory):
+    os.makedirs(directory)
 if os.path.exists(model_path):
     model.load_state_dict(torch.load(model_path))
     print("Model loaded!")
